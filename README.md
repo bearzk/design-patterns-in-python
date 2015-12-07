@@ -9,7 +9,8 @@ TODO
 ====
 
 - [x] adapter
+- [x] facade
 - [x] simple factory
 - [x] factory
-- [x] facade
 - [x] singleton
+- [x] strategy
