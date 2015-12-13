@@ -1,6 +1,6 @@
 class PowerSocketInterface(object):
     def active(self):
-        raise NotImplementedError("PowerSocket should active")
+        raise NotImplementedError("active not implemented")
 
 class EUSocket(PowerSocketInterface):
     def __init__(self, eu_plug):
