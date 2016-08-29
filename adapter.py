@@ -28,10 +28,11 @@ class CNPlug(object):
 class CNEUAdapter(EUPlug):
     def __init__(self, cn_plug):
         self.message = "CNEU adapter in use"
+        self.cn_plug = cn_plug
 
     def eu_connect(self):
         print self.message
-        return cn_plug.cn_connect()
+        return self.cn_plug.cn_connect()
 
 print "plug a eu_plug direct to eu socket"
 eu_plug = EUPlug()
